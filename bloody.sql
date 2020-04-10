@@ -40,9 +40,7 @@ CREATE TABLE `admin` (
 -- Dumping data for table `admin`
 --
 
-INSERT INTO `admin` (`admin_id`, `admin_name`, `admin_email`, `admin_pswd`, `time`) VALUES
-(1, 'aaditya', 'aaditya@gmail.com', 'aaditya', '2020-03-13 02:32:52'),
-(2, 'admin', 'admin@gmail.com', 'admin', '2020-03-13 02:32:52');
+
 
 -- --------------------------------------------------------
 
@@ -62,10 +60,7 @@ CREATE TABLE `contact` (
 -- Dumping data for table `contact`
 --
 
-INSERT INTO `contact` (`row_id`, `name`, `email`, `mobile`, `message`) VALUES
-(2, 'shailza', 'shailza@gmail.com', '2147483647', 'test2'),
-(3, 'dev', 'dev@mjdj.djj', '2147483647', 'test3'),
-(4, 'fitness', 'fitness@gmail.co', '9250505494', 'test4');
+
 
 -- --------------------------------------------------------
 
@@ -90,12 +85,7 @@ CREATE TABLE `donor` (
 -- Dumping data for table `donor`
 --
 
-INSERT INTO `donor` (`donar_id`, `name`, `gender`, `age`, `mobile`, `blood_group`, `email`, `city`, `state`, `address`) VALUES
-(1, 'Aaaditya', 'male', '20', '8950505494', 'B+', 'aaditya@gmail.com', 'Ambala cantt', 'Haryana', '20D pooja vihar'),
-(2, 'dev', 'male', '85', '123456789', 'A-', 'dev@mjdj.djj', 'goa', 'Goa', ' qedcrdg gvfdd ffcv'),
-(3, 'Naveen', 'male', '21', '9829825247', 'O+', 'naveengoyal002@gmail.com', 'Bhiwani', 'Haryana', 'Gali no. 21, bhiwani, haryana'),
-(4, 'mansha', 'female', '16', '9437821167', 'O-', 'mansha@gmail.com', 'Landra', 'Punjab', 'kaccha bazar'),
-(6, 'shli', 'female', '48', '75285885475', 'AB+', 'shali@gnm.com', 'banglore', 'Karnataka', ' eyuhd hgd yueb iufenf');
+
 
 -- --------------------------------------------------------
 
@@ -123,10 +113,7 @@ CREATE TABLE `request` (
 -- Dumping data for table `request`
 --
 
-INSERT INTO `request` (`req_id`, `patient_name`, `gender`, `age`, `b_group`, `contact_name`, `email`, `phone`, `city`, `state`, `req_date`, `doc_name`, `hospital_detail`) VALUES
-(1, 'nav', 'male', '25', 'O-', 'navi', 'navi@gmail.com', '8585687826666', 'bhopal', 'Andhra Pradesh', '2520-04-21', 'Dr. guju patel', 'shgnbhgsbsgbh shsb sysncnnc  '),
-(2, 'Aaditya', 'male', '20', 'B+', 'Aadi', 'aadityagoel018@gmail.com', '8950505494', 'Ambala', 'Haryana', '2020-04-27', 'Dr. Vikas Mittal', 'rotary  hospital'),
-(3, 'dev', 'male', '58', 'A-', 'syhw', 'dev@mjdj.djj', '7857855', 'sjsj', 'Goa', '5814-05-15', 'Dr. guju patel', 'pgi');
+
 
 --
 -- Indexes for dumped tables
